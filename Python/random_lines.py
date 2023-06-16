@@ -11,5 +11,5 @@ for i in range(10):
     arr1.append(x)
     arr2.append(y)
 
-plt.plot(arr1,arr2)
+plt.plot(arr1,arr2,marker = 'o')
 plt.show()
